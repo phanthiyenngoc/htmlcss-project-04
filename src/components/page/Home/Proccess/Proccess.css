@@ -1,0 +1,142 @@
+.proccess {
+  margin-top: 185px;
+  margin-bottom: 148px;
+}
+
+.prossecc__title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.prossecc__title-desc {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.12;
+  color: #152427;
+  margin-left: 20px;
+}
+
+.prossecc__title-desc::before {
+  display: inline-block;
+  content: "";
+  width: 25px;
+  height: 1px;
+  background: #152427;
+  position: relative;
+  top: -6px;
+  left: -16px;
+}
+.prossecc__title-sub::after {
+  display: inline-block;
+  content: "";
+  width: 66px;
+  height: 2px;
+  background: #152427;
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+.prossecc__title-sub {
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 1.24;
+  color: #152427;
+  text-align: start;
+  max-width: 477px;
+}
+
+.proccess__group {
+  position: relative;
+  margin-top: 81px;
+}
+.prosseccItiem {
+  border-radius: 33px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.prosseccItiem:hover {
+  background: #e2eddf;
+  border-radius: 33px;
+  overflow: hidden;
+}
+
+.prosseccItiem_desc {
+  max-width: 572px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  /* or 156% */
+
+  /* text color/light gray */
+
+  color: #7d8188;
+  text-align: start;
+}
+
+.prosseccItiem_numerical {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 52px;
+  /* identical to box height, or 72% */
+
+  /* Primary color/black green */
+
+  color: #143c3c;
+}
+
+.prosseccItiem_title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 0;
+
+  /* identical to box height, or 100% */
+
+  /* Primary color/black */
+
+  color: #152427;
+}
+
+.prosseccItiem_title-more {
+  margin-top: 22px;
+}
+
+.prosseccItiem_underlined {
+  display: block;
+  width: 1131px;
+  height: 3px;
+  background: #efefef;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.index_0 {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: start;
+}
+.index_0 .prosseccItiem_numerical {
+  margin-left: 55px;
+  margin-right: 138px;
+}
+
+.proccess__banner {
+  width: 450px;
+  object-fit: cover;
+  position: absolute;
+  top: -298px;
+  bottom: 0;
+}

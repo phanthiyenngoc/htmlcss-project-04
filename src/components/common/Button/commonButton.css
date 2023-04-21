@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 20px;
+  line-height: 57px;
+  min-width: 173px;
+  background: #143c3c;
+  border: 1.5px solid #143c3c;
+  border-radius: 40px;
+  color: #ffffff;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

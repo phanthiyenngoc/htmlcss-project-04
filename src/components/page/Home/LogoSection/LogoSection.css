@@ -1,0 +1,27 @@
+.logoSection_group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #e2eddf;
+  border-radius: 100.5px;
+  padding: 75px 0;
+  margin-bottom: 106px;
+}
+
+.logoSection__list {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 39px;
+  color: #163c35;
+}
+.link:hover {
+  text-shadow: 1px 0 0 currentColor;
+}
+.logoSectionItem {
+  padding-left: 10px;
+}
